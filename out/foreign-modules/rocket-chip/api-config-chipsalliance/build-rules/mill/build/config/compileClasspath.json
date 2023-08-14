@@ -1,8 +1,0 @@
-{
-    "value": [
-        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/api-config-chipsalliance/design/craft/resources",
-        "qref:02677604:/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar"
-    ],
-    "valueHash": -1545439702,
-    "inputsHash": 1835891993
-}

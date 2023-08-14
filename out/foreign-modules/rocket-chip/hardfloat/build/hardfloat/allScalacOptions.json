@@ -1,8 +1,0 @@
-{
-    "value": [
-        "-Xplugin:/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.12.13/3.5.0/chisel3-plugin_2.12.13-3.5.0.jar",
-        "-Xsource:2.11"
-    ],
-    "valueHash": -482618372,
-    "inputsHash": -413724422
-}

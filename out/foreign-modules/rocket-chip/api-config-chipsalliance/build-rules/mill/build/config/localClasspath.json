@@ -1,8 +1,0 @@
-{
-    "value": [
-        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/api-config-chipsalliance/design/craft/resources",
-        "ref:3ffde179:/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/api-config-chipsalliance/build-rules/mill/build/config/compile.dest/classes"
-    ],
-    "valueHash": 240117695,
-    "inputsHash": 476987695
-}

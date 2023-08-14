@@ -1,8 +1,0 @@
-{
-    "value": [
-        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/macros/src/main/resources",
-        "ref:4a6d9c5e:/home/guanjinlong/PCIe/out/rocketchip/macros/compile.dest/classes"
-    ],
-    "valueHash": 1562130230,
-    "inputsHash": 1973950245
-}
