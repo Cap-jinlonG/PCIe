@@ -1,0 +1,217 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 10 Scala sources to /home/guanjinlong/PCIe/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:5:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.amba.axi4.{AXI4BundleAR, AXI4BundleAW, AXI4BundleB, AXI4BundleParameters, AXI4BundleR, AXI4BundleW}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:6:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.{TLBundleA, TLBundleD, TLBundleParameters}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:32:27: not found: type TLBundleA[0m
+[0m[[0m[31merror[0m] [0m[0m  val a = DecoupledIO(new TLBundleA(new TLBundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:32:41: not found: type TLBundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m  val a = DecoupledIO(new TLBundleA(new TLBundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:5: not found: value addressBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:23: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:39: not found: value sourceBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:55: not found: value sinkBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:69: not found: value sizeBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:83: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:101: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:122: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:33:144: not found: value hasBCE[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits = 256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:39:9: not found: type AXI4BundleAR[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleAR(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:39:26: not found: type AXI4BundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleAR(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:40:7: not found: value addrBits[0m
+[0m[[0m[31merror[0m] [0m[0m      addrBits = 36,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:41:7: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m      dataBits = 512,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:42:7: not found: value idBits[0m
+[0m[[0m[31merror[0m] [0m[0m      idBits = 3,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:43:7: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m      echoFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:44:7: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m      requestFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:45:7: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m      responseFields = Nil[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:49:9: not found: type AXI4BundleAW[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleAW(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:49:26: not found: type AXI4BundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleAW(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:50:7: not found: value addrBits[0m
+[0m[[0m[31merror[0m] [0m[0m      addrBits = 36,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:51:7: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m      dataBits = 512,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:52:7: not found: value idBits[0m
+[0m[[0m[31merror[0m] [0m[0m      idBits = 3,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:53:7: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m      echoFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:54:7: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m      requestFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:55:7: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m      responseFields = Nil[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:59:9: not found: type AXI4BundleW[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleW(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:59:25: not found: type AXI4BundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleW(new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:60:7: not found: value addrBits[0m
+[0m[[0m[31merror[0m] [0m[0m      addrBits = 36,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:61:7: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m      dataBits = 512,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:62:7: not found: value idBits[0m
+[0m[[0m[31merror[0m] [0m[0m      idBits = 3,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:63:7: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m      echoFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:64:7: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m      requestFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:65:7: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m      responseFields = Nil[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:71:27: not found: type TLBundleD[0m
+[0m[[0m[31merror[0m] [0m[0m  val d = DecoupledIO(new TLBundleD(new TLBundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:71:41: not found: type TLBundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m  val d = DecoupledIO(new TLBundleD(new TLBundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:5: not found: value addressBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:23: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:38: not found: value sourceBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:54: not found: value sinkBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:68: not found: value sizeBits[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:82: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:100: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:121: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:72:143: not found: value hasBCE[0m
+[0m[[0m[31merror[0m] [0m[0m    addressBits = 36, dataBits =256, sourceBits = 5, sinkBits = 5, sizeBits = 3, echoFields = ???, requestFields = ???, responseFields = ???, hasBCE = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:78:9: not found: type AXI4BundleR[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleR([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:79:11: not found: type AXI4BundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m      new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:80:9: not found: value addrBits[0m
+[0m[[0m[31merror[0m] [0m[0m        addrBits = 36,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:81:9: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m        dataBits = 512,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:82:9: not found: value idBits[0m
+[0m[[0m[31merror[0m] [0m[0m        idBits = 3,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:83:9: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m        echoFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:84:9: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:85:9: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m        responseFields = Nil[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:90:9: not found: type AXI4BundleB[0m
+[0m[[0m[31merror[0m] [0m[0m    new AXI4BundleB([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:91:11: not found: type AXI4BundleParameters[0m
+[0m[[0m[31merror[0m] [0m[0m      new AXI4BundleParameters([0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:92:9: not found: value addrBits[0m
+[0m[[0m[31merror[0m] [0m[0m        addrBits = 36,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:93:9: not found: value dataBits[0m
+[0m[[0m[31merror[0m] [0m[0m        dataBits = 512,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:94:9: not found: value idBits[0m
+[0m[[0m[31merror[0m] [0m[0m        idBits = 3,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:95:9: not found: value echoFields[0m
+[0m[[0m[31merror[0m] [0m[0m        echoFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:96:9: not found: value requestFields[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFields = Nil,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/AXI2TLPCIe.scala:97:9: not found: value responseFields[0m
+[0m[[0m[31merror[0m] [0m[0m        responseFields = Nil[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/ReadStack.scala:5:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/ReadStack.scala:6:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.TLMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/ReadStack.scala:7:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/ReadStack.scala:8:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.amba.axi4._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/guanjinlong/PCIe/src/main/scala/PCIe/pcieParameters.scala:4:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Field[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m69 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 2023年7月17日 下午5:39:22[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

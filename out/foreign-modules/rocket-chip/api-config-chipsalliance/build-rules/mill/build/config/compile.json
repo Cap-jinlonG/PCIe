@@ -1,0 +1,8 @@
+{
+    "value": {
+        "analysisFile": "/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/api-config-chipsalliance/build-rules/mill/build/config/compile.dest/zinc",
+        "classes": "ref:3ffde179:/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/api-config-chipsalliance/build-rules/mill/build/config/compile.dest/classes"
+    },
+    "valueHash": 835961595,
+    "inputsHash": -664421072
+}

@@ -1,0 +1,10 @@
+{
+    "value": [
+        "qref:b4b79b38:/nfs/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar",
+        "qref:11525dc9:/nfs/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar",
+        "qref:d091281a:/nfs/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",
+        "qref:b426741e:/nfs/home/guanjinlong/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+    ],
+    "valueHash": 1254200633,
+    "inputsHash": 1251001706
+}

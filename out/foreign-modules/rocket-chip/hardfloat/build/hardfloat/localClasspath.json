@@ -1,0 +1,8 @@
+{
+    "value": [
+        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/hardfloat/src/main/resources",
+        "ref:841f17ba:/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/hardfloat/build/hardfloat/compile.dest/classes"
+    ],
+    "valueHash": 1419033478,
+    "inputsHash": 849284946
+}

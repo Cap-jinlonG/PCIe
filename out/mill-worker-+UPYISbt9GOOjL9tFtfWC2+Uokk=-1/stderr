@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.Exception: PID already present
+	at mill.main.Server.$anonfun$run$6(MillServerMain.scala:116)
+	at scala.Option.getOrElse(Option.scala:201)
+	at mill.main.Server.run(MillServerMain.scala:116)
+	at mill.main.MillServerMain$.main(MillServerMain.scala:46)
+	at mill.main.MillServerMain.main(MillServerMain.scala)

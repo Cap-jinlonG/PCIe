@@ -1,0 +1,12 @@
+{
+    "value": [
+        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/macros/src/main/resources",
+        "ref:4a6d9c5e:/home/guanjinlong/PCIe/out/rocketchip/macros/compile.dest/classes",
+        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/hardfloat/src/main/resources",
+        "ref:841f17ba:/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/hardfloat/build/hardfloat/compile.dest/classes",
+        "ref:c984eca8:/home/guanjinlong/PCIe/rocket-chip/api-config-chipsalliance/design/craft/resources",
+        "ref:3ffde179:/home/guanjinlong/PCIe/out/foreign-modules/rocket-chip/api-config-chipsalliance/build-rules/mill/build/config/compile.dest/classes"
+    ],
+    "valueHash": -1657260464,
+    "inputsHash": 2108164459
+}
